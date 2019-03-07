@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 부트스트랩 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/custom.css"/>
+	<style>
+	@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+	@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+	.jumbotron{
+		background-image: url('/images/parking.jpg');
+		background-size: cover;
+		text-shadow: black 0.2em 0.2em 0.2em;
+		color: white;
+	}
+	</style>
+
+</head>
+<body>
+  <!--내비게이션 바 / 메뉴출력 -->
+	<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">스마트 주차</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="login">로그인</a></li>
+              <li><a href="register">회원가입</a></li>
+            </ul>
+          </li>
+				</ul>
+      </div>
+    </div>
+  </nav>
+
+	<div class="container">
+    <!--점보트론(전광판 역할)-->
+    <div class="jumbotron">
+      <!--제목 가운데정렬-->
+      <h1 class="text-center"> 스마트 주차 시스템</h1>
+      <h3 class="text-center"> 스마트 주차 시스템은 이더리움 기반의 주차 시스템 입니다.</h3>
+      <p class="text-center"><a class="btn btn-primary btn-lg" href="login" role="button">시작하기</a></p>
+    </div>
+		<h3 class="text-center">주차 요금</h3>
+	  <h3 class="text-center">장애인탑승차량(Type:1) : 1초당 1이더</h3>
+	  <h3 class="text-center">일반차량(Type:2) : 1초당 2이더</h3>
+	  <h3 class="text-center">화물차량(Type:3) : 1초당 3이더</h3>
+  </div>
+	<!-- /container -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

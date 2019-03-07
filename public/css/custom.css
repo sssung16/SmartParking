@@ -1,0 +1,145 @@
+<style>
+*{
+  font-family: 'Nanum Gothic';
+}
+h5{
+  font-family: 'Noto Sans KR';
+  font-size: 15px;
+}
+h4{
+  font-family: 'Hanna';
+}
+h3{
+  font-family: 'Hanna';
+}
+h2{
+  font-family: 'Hanna';
+}
+h1{
+  font-family: 'Hanna';
+}
+
+thead th{
+  background-color : #006DCC;
+  color: white;
+  text-align: center;
+}
+tr td:first-child,
+tr th:first-child{
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+tr td:last-child,
+tr th:last-child{
+  border-top-right-radius: 6px;
+  border-bottom-right-radius:6px;
+}
+
+	.btn-register {
+		background-color: #1CB94E;
+		outline: none;
+		color: #fff;
+		font-size: 14px;
+		height: auto;
+		font-weight: normal;
+		text-transform: uppercase;
+		border-color: #1CB94A;
+	}
+	.btn-register:hover,
+	.btn-register:focus {
+		color: #fff;
+		background-color: #1CA347;
+		border-color: #1CA347;
+	}
+</style>
+/*스타일시트 , 점보트론 글자 및 배경 */
+<style type="text/css">
+    .jumbotron{
+      background-image: url('/images/parking.jpg');
+      background-size: cover;
+      text-shadow: black 0.2em 0.2em 0.2em;
+      color: white;
+    }
+  /* 내비게이션 바 디자인 */
+    .navbar-default{
+      background-color: #006DCC;
+      border-color: #006DCC;
+      border-bottom-color: #dddddd;
+      border-bottom-width: 3px;
+      border-radius: 0px;
+    }
+    /*내비게이션 제목 색상 및 글자 */
+    .navbar-default .navbar-brand{
+      color:#ffffff;
+      padding-top : 25px;
+      font-family: "Hanna";
+    }
+    /*내비게이션 제목에 마우스를 올렸을 때 */
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus{
+      color:#dddddd;
+      background-color:transparent;
+    }
+    /*선택된 내비게이션 마우스 색상 이벤트 */
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus{
+      color : #ffffff;
+      background-color: #1456b8;
+    }
+    /* 내비게이션 글자 기본 폰트 */
+    .navbar-default .navbar-nav > li > a{
+      color: white;
+      font-family : 'Noto Sans KR';
+    }
+    /*내비게이션 글자에 마우스를 올렸을 때 */
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus{
+      color : #dddddd;
+    }
+    /*열린 드랍다운 마우스 색상 이벤트 */
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus{
+      color : #006DCC;
+      text-decoration: none;
+      background-color: #ffffff;
+    }
+    /*작은화면 드랍다운 마우스 색상 이벤트 */
+    @media(max-width: 767px){
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        color: #ffffff;
+      }
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+      .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
+        color:#eeeeee;
+      }
+    }
+    /*토글에 마우스를 올렸을 때*/
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus{
+      background-color:#1456b8;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+      background-color: #dddddd;
+    }
+    /* 내비게이션 바 길이 수정*/
+    .navbar-fixed-top{
+      min-height: 70px;
+    }
+    .navbar-nav > li > a{
+      padding-top:  0px;
+      padding-bottom: 0px;
+      line-height: 70px;
+    }
+    @media (max-width : 767px){
+      .navbar-default .navbar-brand{
+        padding-top : 15px;
+      }
+      .navbar-nav > li > a{
+        padding-top: 0px;
+        padding-bottom : 0px;
+        line-height: 40px;
+      }
+    }
+</style>
